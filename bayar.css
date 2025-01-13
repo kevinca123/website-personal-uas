@@ -1,0 +1,85 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #ffbb00;  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+.checkout-container {  
+    max-width: 600px;  
+    margin: auto;  
+    background: rgb(140, 0, 255);  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(255, 145, 2, 0.979);  
+}  
+
+header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+h1, h2 {  
+    color: #00ffea;  
+}  
+
+.shipping-options, .payment-method, .subtotal {  
+    margin-bottom: 30px;  
+    border-bottom: 1px solid #05e605;  
+    padding-bottom: 15px;  
+}  
+
+.shipping-info {  
+    background-color: #e0f7fa;  
+    padding: 10px;  
+    border-radius: 4px;  
+    margin-bottom: 10px;  
+}  
+
+.shipping-detail {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.original-price {  
+    text-decoration: line-through;  
+    color: #999;  
+}  
+
+.discounted-price {  
+    color: #f00;  
+    font-weight: bold;  
+}  
+
+.payment-option {  
+    margin: 10px 0;  
+}  
+
+.payment-option input {  
+    margin-right: 10px;  
+}  
+
+.voucher {  
+    margin-top: 15px;  
+}  
+
+.total {  
+    display: flex;  
+    justify-content: space-between;  
+    font-weight: bold;  
+}  
+
+.order-button {  
+    width: 100%;  
+    padding: 15px;  
+    background-color: #00ff4c;  
+    color: rgb(247, 6, 214);  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.order-button:hover {  
+    background-color: #ff0000;  
+}

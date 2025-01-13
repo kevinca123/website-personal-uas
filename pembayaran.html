@@ -1,0 +1,73 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="bayar.css">  
+    <title>Checkout</title>  
+</head>  
+<body>  
+    <div class="checkout-container">  
+        <header>  
+            <h1>Checkout</h1>  
+        </header>  
+
+        <section class="shipping-options">  
+            <h2>Pilihan pengiriman</h2>  
+            <p class="shipping-info">Nikmati Gratis Ongkir mingguan Rp10,00$</p>  
+            <div class="shipping-detail">  
+                <span>Standar</span>  
+                <span class="original-price">80,00$</span>  
+                <span class="discounted-price">Rp70,00$</span>  
+                <p class="shipping-note">Dijamin tiba 11-14 Jan. Dapatkan LazRewards Rp70,00$ jika pesanannya terlambat.</p>  
+            </div>  
+        </section>  
+
+        <section class="payment-method">  
+            <h2>Pilih metode pembayaran</h2>  
+            <form>  
+                <div class="payment-option">  
+                    <input type="radio" id="bca" name="payment" value="bca" checked>  
+                    <label for="bca">BCA - Pembayaran Tagihan/Transfer Bank</label>  
+                </div>  
+                <div class="payment-option">  
+                    <input type="radio" id="qris" name="payment" value="qris">  
+                    <label for="qris">QRIS - Pembayaran QRIS</label>  
+                </div>  
+                <div class="payment-option">  
+                    <input type="radio" id="kredivo" name="payment" value="kredivo">  
+                    <label for="kredivo">Kredivo 0-Click - cicilan bulanan</label>  
+                </div>  
+                <div class="payment-option">  
+                    <input type="radio" id="credit-card" name="payment" value="credit-card">  
+                    <label for="credit-card">Kartu Kredit/Debit - Ketuk untuk tambahkan kartu</label>  
+                </div>  
+                <div class="voucher">  
+                    <label for="voucher">Masukkan kode voucher:</label>  
+                    <input type="text" id="voucher" placeholder="Ketik kode di sini">  
+                </div>  
+            </form>  
+        </section>  
+
+        <section class="subtotal">  
+            <h2>Subtotal produk yang dijual (1 produk)</h2>  
+            <div class="subtotal-detail">  
+                <span>cashless</span>  
+                <span>Rp80,00$</span>  
+            </div>  
+            <div class="subtotal-detail">  
+                <span>Subtotal Ongkir</span>  
+                <span>Rp2,00&</span>  
+            </div>  
+            <div class="total">  
+                <span>Total:</span>  
+                <span class="total-amount">72.00$</span>  
+                <span class="total-discount">Total diskon Rp10.00$</span>  
+            </div>  
+        </section>  
+
+        <button class="order-button">Buat pesanan</button>  
+    </div>  
+</body>  
+</html>
